@@ -1,3 +1,8 @@
+@font-face {
+    src: url("./Fonts/CursedTimerUlil.ttf");
+    font-family: CursedTimer;
+}
+
 body {
     margin: 0;
 }
@@ -23,6 +28,7 @@ button {
     border:  solid #EDE9FE 1.5px;
     border-radius: 4px;
     color: #EDE9FE;
+    font-family: CursedTimer;
     background: #8B5CF6;
     padding: 10px 10px;
     margin: 0 5px 5px 0;
@@ -30,6 +36,7 @@ button {
 
 .reset-btn {
     margin: auto 0;
+    font-family: CursedTimer;
 }
 
 .scoreboard {
@@ -39,9 +46,10 @@ button {
     height: 120px;
     border: black 1px;
     text-align: center;
+    font-family: CursedTimer;
     font-size: 126px;
     margin: 20px;
-    padding: 0 0 20px 0;
+    padding: 20px 15px 20px 0;
 }
 
 .add-scores {
